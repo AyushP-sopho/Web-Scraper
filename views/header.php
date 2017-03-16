@@ -21,9 +21,9 @@
 
         <!-- http://getbootstrap.com/ -->
         <script src="/js/bootstrap.min.js"></script>
-
-        <script src="/js/scripts.js"></script>
-
+        <?php if($loadjs == true): ?>
+            <script src="/js/scripts.js"></script>
+        <?php endif ?>
     </head>
 
     <body>
@@ -32,7 +32,7 @@
 
             <div id="top">
                 <div>
-                    <a href="/quer.php"><img alt="Web Crawler" src="/img/logo.png"/></a>
+                    <a href="/"><img alt="Web Crawler" src="/img/logo.png"/></a>
                 </div>
                 
             </div>

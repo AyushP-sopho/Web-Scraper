@@ -1,4 +1,4 @@
-<form action = "query.php" method = "post">
+<form action = "loadpage.php" method = "post">
     <fielset>
         <div class = "form-group">
             <select name = "city">
